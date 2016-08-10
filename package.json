@@ -13,11 +13,8 @@
     "clean": "rm dist/* && rm example/bundle*"
   },
   "browserify-shim": {
-    "jayQuery": "global:jQuery",
-    "react": "global:React",
-    "react-dom": "global:ReactDOM"
+    "react": "global:React"
   },
-
   "browserify": {
     "transform": [
       [
