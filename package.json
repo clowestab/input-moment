@@ -31,8 +31,6 @@
   "author": "Wang Zuo",
   "license": "ISC",
   "peerDependencies": {
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0",
     "moment": "^2.10.6"
   },
   "devDependencies": {
