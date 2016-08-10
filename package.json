@@ -15,6 +15,19 @@
   "github-pages-deploy": {
     "src": "example"
   },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015",
+            "react"
+          ]
+        }
+      ]
+    ]
+  },
   "author": "Wang Zuo",
   "license": "ISC",
   "peerDependencies": {
