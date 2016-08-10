@@ -12,23 +12,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm dist/* && rm example/bundle*"
   },
-  "browserify-shim": {
-    "react": "global:React"
-  },
-  "browserify": {
-    "transform": [
-      [
-        "browserify-shim",
-        "babelify",
-        {
-          "presets": [
-            "es2015",
-            "react"
-          ]
-        }
-      ]
-    ]
-  },
   "github-pages-deploy": {
     "src": "example"
   },
